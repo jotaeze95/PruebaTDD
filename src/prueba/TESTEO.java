@@ -9,7 +9,7 @@ class TESTEO {
 	@Test
 	public void testTrue() {
 	        EvaluadorBoleano evaluador = new EvaluadorBoleano();
-	        assert evaluador.evalua("verdadero") == true;
+	        assert evaluador.eval("verdadero") == true;
 	    }
 
 }
