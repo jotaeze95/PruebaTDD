@@ -11,5 +11,11 @@ class TESTEO {
 	        EvaluadorBoleano evaluador = new EvaluadorBoleano();
 	        assert evaluador.eval("verdadero") == true;
 	    }
+	
+	@Test
+	public void testFalse() {
+	    EvaluadorBoleano evaluador = new EvaluadorBoleano();
+	    assert evaluador.eval("falso") == false;
+	}
 
 }
