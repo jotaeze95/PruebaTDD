@@ -7,8 +7,9 @@ import org.junit.jupiter.api.Test;
 class TESTEO {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
-	}
+	public void testTrue() {
+	        EvaluadorBoleano evaluador = new EvaluadorBoleano();
+	        assert evaluador.evalua("verdadero") == true;
+	    }
 
 }
